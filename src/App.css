@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App {
+  height: 100vh;
+  background-color: rgba(29, 167, 119, 0.796);
+  width: 100%;
+  display: block;
+  justify-content: center;
+  font-size: 4vh;
+}
+.ToDoList{
+  border: solid;
+  margin: 4% 10%;
+  padding: 2vh;
+  background-color: rgba(137, 43, 226, 0.728);
+  color: rgba(32, 8, 8, 0.877);
+  align-self: center;
+  align-content: center;
+  font-size: large;
+  border-radius: 45%;
+}
+
+button{
+  border: 2px solid;
+  border-color: rgb(16, 16, 179);
+  border-radius: 3px;
+  margin: 4% 4% 0% 4%;
+  padding: 1%;
+  background-color: rgba(18, 54, 125, 0.775);
+}
+ 
+input{
+  border: 1px solid;
+  border-color: rgb(117, 107, 107);
+  padding: 3px 6px; 
+}
+button:hover{
+  cursor: grab;
+  background-color: rgba(77, 77, 169, 0.884);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+input:hover{
+  font-style:oblique;
+}
